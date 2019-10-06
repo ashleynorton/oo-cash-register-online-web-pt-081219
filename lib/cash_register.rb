@@ -14,4 +14,6 @@ class CashRegister
     self.last_transaction << self.total 
   end 
   
+  
+  
 end 
