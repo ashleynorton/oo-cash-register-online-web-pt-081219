@@ -1,4 +1,5 @@
 class CashRegister
+  require 'pry'
   attr_accessor :total, :discount, :items, :last_transaction
   
   def initialize(discount = 0)
@@ -29,5 +30,6 @@ class CashRegister
   
   def void_last_transaction
     @last_transaction
+    binding.pry 
   end 
 end 
