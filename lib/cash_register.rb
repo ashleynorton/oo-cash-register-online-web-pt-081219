@@ -5,4 +5,6 @@ class CashRegister
     @total = total
     @discount = discount 
   end 
+  
+  
 end 
