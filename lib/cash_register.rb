@@ -14,8 +14,8 @@ class CashRegister
     self.last_transaction << self.total 
   end 
   
-  def apply_discount
-    
+  def apply_discount(discount)
+    self.total
   end 
   
 end 
